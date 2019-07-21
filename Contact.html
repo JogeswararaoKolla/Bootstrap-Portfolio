@@ -14,9 +14,9 @@
 
 <body>
 
-  <div class="container">
+  <div class="container-fluid">
 
-      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #4BABFE;">
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #279CCF;">
           <a class="navbar-brand" href="index.html">Jogeswararao Kolla</a>
           <div class="d-flex justify-content-end">
             <a class="navbar-brand" href="index.html">About</a>
@@ -27,27 +27,47 @@
 
     <div class="row">
       <div class="col-md-8 col-lg-6 col-sm-12 col-xs-12">
+
         <br>
-        <h3 style="font-weight: bold;color: #4BABFE">Contact</h3>
-        <hr>
-        <form>
-          <div class="form-group">
-            <label for="yourName">Name</label>
-            <input type="text" class="form-control" id="yourName" placeholder="John Smith" required="required">
+          <div class="card">
+              <div style="background-color: #279CCF" class="card-header">
+                  <h5>Contact</h5>
+              </div>
+              <div class="card-body">
+                  <hr>
+                  <form>
+                    <div class="form-group">
+                      <label for="yourName">Name</label>
+                      <input type="text" class="form-control" id="yourName" placeholder="John Smith" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="inputEmail">Email address</label>
+                      <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
+                        placeholder="example@gmail.com" required="required">
+                    </div>
+                    <div class="form-group">
+                      <label for="Message1">Message</label>
+                      <textarea id="msg" class="form-control" rows="5" placeholder="Message"  required="required"></textarea>
+                    </div>
+                    <button class="btn" style="font-weight:normal;color:black;background-color: #279CCF;padding:10px;" id="submtbtn">Submit</button>
+                  </form>
+              </div>
           </div>
-          <div class="form-group">
-            <label for="inputEmail">Email address</label>
-            <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp"
-              placeholder="example@gmail.com" required="required">
-          </div>
-          <div class="form-group">
-            <label for="Message1">Message</label>
-            <textarea id="msg" class="form-control" rows="5" placeholder="Message"  required="required"></textarea>
-          </div>
-          <button type="button" style="font-weight: bold;background-color: #4BABFE;color:white;padding:10px 15px 10px 10px" class="btn">Submit</button>
-        </form>
+
       </div>
     </div>
+
+    <br>
+    <br>
+
+    <footer>
+        <div>
+            <p style="background-color:#279CCF" class="py-2  text-sm-left text-xs-left text-md-center text-lg-center">&copy; Copyright 2019 Jogeswararao Kolla </p>
+        </div>
+      </footer>
+  
+
+
 
   </div>
 </body>
